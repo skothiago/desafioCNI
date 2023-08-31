@@ -14,6 +14,9 @@ const createPessoa = async (userBody) => {
 const getPessoaById = async (id) => {
   return Pessoa.findById(id);
 };
+const getAll = async () => {
+  return Pessoa.find();
+};
 
 const updatePessoaById = async ( updateBody) => {
   const pessoa = await getPessoaById(updateBody.pessoaId);
@@ -39,6 +42,7 @@ const deletePessoaById = async (userId) => {
 module.exports = {
   createPessoa,
   getPessoaById,
+  getAll,
   updatePessoaById,
   deletePessoaById
 };
