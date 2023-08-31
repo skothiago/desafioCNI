@@ -8,11 +8,9 @@ const register = catchAsync(async (req, res) => {
 });
 
 const getPessoa = catchAsync(async (req, res) => {
-  const user = await pessoaService.getPessoaById(req.body.pessoaId);
-  if (!user) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'User not found');
-  }
-  res.send(user);
+  const pessoas = await pessoaService.getAll();
+
+  res.send(pessoas);
 });
 
 const updatePessoa = catchAsync(async (req, res) => {
