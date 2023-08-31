@@ -8,7 +8,7 @@ const router = express.Router();
 router
   .route('/')
   .post(validate(pessoaValidation.register), pessoaController.register)
-  .get(validate(pessoaValidation.getPessoa), pessoaController.getPessoa)
+  .get( pessoaController.getPessoa)
   .put(validate(pessoaValidation.updatePessoa), pessoaController.updatePessoa)
   .delete(validate(pessoaValidation.deletePessoa), pessoaController.deletePessoa);
 
