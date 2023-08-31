@@ -11,11 +11,7 @@ const register = {
     fraseMotiv: Joi.string().required()
   }),
 };
-const getPessoa = {
-  body: Joi.object().keys({
-    pessoaId: Joi.string().custom(objectId),
-  }),
-};
+
 
 const updatePessoa = {
   body: Joi.object()
@@ -38,7 +34,6 @@ const deletePessoa = {
 };
 module.exports = {
   register,
-  getPessoa,
   updatePessoa,
   deletePessoa
 };
