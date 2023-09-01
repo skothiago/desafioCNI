@@ -27,7 +27,7 @@ Screenshot
 
 ## Configurando o Backend (Node.js)
 
-1. Navegue até o diretório **"backend"**no terminal.
+1. Navegue até o diretório **"backend"** no terminal.
 2. Execute o comando **"npm install"** para instalar as dependências do backend.
 3. Renomeie o arquivo **".env.example"** para **".env"** e configure as variáveis de ambiente, como as configurações do banco de dados.
 4. Execute o comando **"npm start"** para iniciar o servidor backend.

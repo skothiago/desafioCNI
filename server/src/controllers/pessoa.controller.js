@@ -9,7 +9,6 @@ const register = catchAsync(async (req, res) => {
 
 const getPessoa = catchAsync(async (req, res) => {
   const pessoas = await pessoaService.getAll();
-
   res.send(pessoas);
 });
 
@@ -19,7 +18,7 @@ const updatePessoa = catchAsync(async (req, res) => {
 });
 
 const deletePessoa = catchAsync(async (req, res) => {
-  await pessoaService.deletePessoaById(req.body.pessoaId);
+  await pessoaService.deletePessoaById(req.params.pessoaId);
   res.status(httpStatus.NO_CONTENT).send();
 });
 

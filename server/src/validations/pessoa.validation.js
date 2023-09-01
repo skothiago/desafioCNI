@@ -12,7 +12,6 @@ const register = {
   }),
 };
 
-
 const updatePessoa = {
   body: Joi.object()
   .keys({
@@ -28,10 +27,11 @@ const updatePessoa = {
 };
 
 const deletePessoa = {
-  body: Joi.object().keys({
+  params: Joi.object().keys({
     pessoaId: Joi.string().custom(objectId),
   }),
 };
+
 module.exports = {
   register,
   updatePessoa,
