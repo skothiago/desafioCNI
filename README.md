@@ -1,12 +1,12 @@
-# Aplicação de Cadastro de Pessoas
+# Aplicação de Cadastro de Pessoas com MongoDB
 
-Esta é uma aplicação de cadastro de pessoas desenvolvida utilizando as tecnologias React, Vite, Next.js, Axios, Node.js e a biblioteca Chakra UI.
+Esta é uma aplicação de cadastro de pessoas desenvolvida utilizando as tecnologias React, Vite, Next.js, Axios, Node.js, a biblioteca Chakra UI e o banco de dados MongoDB.
 
 <img src="client/src/img/Animação.gif">
 
 ## Funcionalidades
 
-- Cadastro de novas pessoas com informações como nome, idade, endereço, etc.
+- Cadastro de novas pessoas com informações como nome, e-mail, sexo, data de nascimento, telefone e frase motivacional.
 - Listagem de todas as pessoas cadastradas.
 - Edição e exclusão de informações de pessoas cadastradas.
 
@@ -18,6 +18,7 @@ Esta é uma aplicação de cadastro de pessoas desenvolvida utilizando as tecnol
 - **Axios:** Cliente HTTP baseado em Promises para fazer requisições à API.
 - **Node.js:** Ambiente de tempo de execução JavaScript do lado do servidor.
 - **Chakra UI:** Biblioteca de design de componentes simples e modularizados para React.
+- **MongoDB:** Banco de dados NoSQL que armazena os dados das pessoas cadastradas.
 
 ## Configuração
 
@@ -29,7 +30,7 @@ Esta é uma aplicação de cadastro de pessoas desenvolvida utilizando as tecnol
 
 1. Navegue até o diretório **"backend"** no terminal.
 2. Execute o comando **"npm install"** para instalar as dependências do backend.
-3. Renomeie o arquivo **".env.example"** para **".env"** e configure as variáveis de ambiente, como as configurações do banco de dados.
+3. Renomeie o arquivo **".env.example"** para **".env"** e configure as variáveis de ambiente, como as configurações do banco de dados MongoDB.
 4. Execute o comando **"npm start"** para iniciar o servidor backend.
 
 ## Configurando o Frontend (React, Vite, Next.js)
