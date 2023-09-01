@@ -2,7 +2,7 @@
 
 Esta é uma aplicação de cadastro de pessoas desenvolvida utilizando as tecnologias React, Vite, Next.js, Axios, Node.js e a biblioteca Chakra UI.
 
-Screenshot
+<img src="client/src/img/Animação.gif">
 
 ## Funcionalidades
 
