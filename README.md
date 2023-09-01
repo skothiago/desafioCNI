@@ -35,7 +35,7 @@ Esta é uma aplicação de cadastro de pessoas desenvolvida utilizando as tecnol
 ## Configurando o Frontend (React, Vite, Next.js)
 
 1. Navegue até o diretório **"frontend"** no terminal.
-2. Execute o comando **"npm install"**para instalar as dependências do frontend.
+2. Execute o comando **"npm install"** para instalar as dependências do frontend.
 3. Renomeie o arquivo **".env.example"** para **".env.local"** e configure as variáveis de ambiente, como a URL da API backend.
 4. Execute o comando **"npm run dev"** para iniciar o servidor de desenvolvimento do frontend.
 
